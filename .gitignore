@@ -1,0 +1,33 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+
+# Swift Package Manager & Xcode Build Artifacts
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Packaged App Bundle & Local Telemetry Reports (May contain local machine state)
+PulseMatrixPro.app/
+Reports/
+*.prom
+*.trace
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
